@@ -1,0 +1,128 @@
+/* 
+  ===============================================================
+  1. Layout
+  ===============================================================
+*/
+.top {
+  padding: 2%;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar-brand {
+  width: 50%;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.navbar-nav li {
+  margin-right: 1.5%;
+  padding-bottom: 0.5%;
+}
+
+.teasers,
+.social {
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.teaser-header,
+.social-header {
+  padding: 2% 0;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.teasers section {
+  width: 30%;
+  margin-right: 2%;
+}
+
+.teasers section h4 {
+  margin-bottom: 2%;
+}
+
+.social .social-links {
+  display: flex;
+}
+
+.social-links {
+  width: 100%;
+}
+.social-links li {
+  margin-right: 1.5%;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 7%;
+  margin-right: 0.5%;
+}
+/* 
+  ===============================================================
+  2. Styling
+  ===============================================================
+*/
+
+/*
+  TODO: Find  a Color Palette
+*/
+/*
+  Basic Styles
+*/
+a {
+  text-decoration: none;
+}
+
+/*
+  Navigation Styling
+*/
+
+.selected {
+  border-bottom: 2px solid#333;
+}
+
+.navbar-brand a {
+  font-size: 22px;
+}
+
+/*
+  Hero Styling
+*/
+
+.hero header {
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 10%;
+}
+
+.hero header {
+  text-transform: capitalize;
+}
+.hero header h1 {
+  font-size: 28px;
+}
+
+.hero header h2 {
+  font-size: 20px;
+}
+
+.hero header button {
+  background: #333;
+  border: none;
+  color: #fff;
+  margin-top: 2%;
+  padding: 8px 50px;
+}
+
+/*
+  Social Styling
+*/
